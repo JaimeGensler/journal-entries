@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <title>Very Private Journal</title>
-  </head>
-  <body>
-    <h1>Make a Journal Entry</h1>
-    <form id="new-entry">
-      <input type="text" placeholder="Entry Title" id="entry-title">
-      <br>
-      <input type="text" placeholder="How was your day?" id="entry-content">
-      <br>
-      <button type="submit">Submit Entry</button>
-    </form>
-    <div id="">
-      <p>test</p>
+<head>
+  <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <title>Very Private Journal</title>
+</head>
+<body>
+  <h1>My Journal</h1>
+  <div id="all-entries">
+    <div data-entry='-1'>
+      <form id="new-entry">
+        <h3>New Entry!</h3>
+        <input type="text" placeholder="Entry Title" id="entry-title">
+        <br>
+        <textarea placeholder="How was your day?" id="entry-content"></textarea>
+        <br>
+        <button type="submit">Submit Entry</button>
+      </form>
     </div>
-  </body>
+  </div>
+</body>
 </html>
